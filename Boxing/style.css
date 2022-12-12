@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+}
+.box-1, .box-2{
+    flex: 50%;
+    text-align: center;
+    width: 500vh;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    height: 20vh;
+  
+}
+.box-1{
+    border: 3px solid greenyellow;
+  
+    color: blueviolet;
+}
+
+.box-2{
+    border: 3px solid violet;
+    color: rgb(187, 255, 0);
+}

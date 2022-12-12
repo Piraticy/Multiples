@@ -1,0 +1,21 @@
+.container{
+     display: flex;
+     width: 400px;
+     height: 400px;
+     flex-direction: row;
+     border: 5px solid #212121;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     overflow: auto;
+     align-content:flex-start;
+     align-items: flex-start;
+}
+
+.item{
+
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+    border-radius: 5px;
+}
