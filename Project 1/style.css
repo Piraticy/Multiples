@@ -12,20 +12,23 @@ body{
 
 }
 .Nav{
-    padding: 15px;
-    margin-left: 120px;
-    margin-top: 20px;
+    display: flex;
+    margin: auto;
     background-color: #31A39F;
-    width: 80%;
-    height: 40px;
+    width: 60%;
+    height: 80px;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 20px;
     align-items: center;
 }
 .Nav a{
+    display: flex;
     text-decoration: none;
     font-size: 2rem;
     margin: 10px;
     color: aliceblue;
-    align-content: center;
+    text-align: center;
 }
 .container{
 
@@ -34,5 +37,6 @@ body{
     margin-top: 80vh;
 }
 .footer p{
+    color:beige;
     text-align: center;
 }
