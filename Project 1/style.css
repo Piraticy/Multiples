@@ -2,6 +2,7 @@
     margin: 0;
     padding: o;
     box-sizing: border-box;
+    text-transform: capitalize;
 }
 
 body{
@@ -62,7 +63,6 @@ header .navbar ul li ul{
     left: 0;
     background:#3e3319 ;
     display: none;
-    opacity: 19;
 }
 
 header .navbar ul li ul li{
