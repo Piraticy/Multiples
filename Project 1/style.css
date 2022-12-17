@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: o;
+    box-sizing: border-box;
 }
 
 body{
@@ -11,24 +12,34 @@ body{
     background-position: center;
 
 }
+.head{
+    margin-left: 40vw;
+    padding-top: 10px;
+    color: #3e3319;
+}
 .Nav{
     display: flex;
     margin: auto;
-    background-color: #31A39F;
-    width: 60%;
+    background-color:rgb(62, 51, 25) ;
+    width: 60vw;
     height: 80px;
     align-items: center;
     margin-top: 30px;
     border-radius: 20px;
     align-items: center;
 }
-.Nav a{
-    display: flex;
+.links a {
     text-decoration: none;
     font-size: 2rem;
     margin: 10px;
-    color: aliceblue;
+    color: beige;
     text-align: center;
+    margin-left: 50px;
+}
+.sublinks{
+    padding: 12px;
+    margin: 0;
+
 }
 .container{
 
