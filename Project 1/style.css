@@ -4,8 +4,10 @@
     box-sizing: border-box;
     text-transform: capitalize;
 }
-
 body{
+    display: grid;
+    place-content: center;
+    text-align: center;
     background-image: url(./Img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,7 +54,6 @@ header .navbar ul li a{
 header .navbar ul li a:hover{
     background: burlywood;
     color: #3e3319 rgb(0, 0, .2);
-    font-weight: bolder;
     transition: 2s;
 }
 
@@ -77,13 +78,66 @@ header .navbar ul li ul li a{
 header .navbar ul li:hover > ul{
      display: initial;
 }
-.container{
 
-}
 .footer{
     margin-top: 80vh;
 }
 .footer p{
     color:beige;
     text-align: center;
+}
+.slider{
+    max-width: 1150px;
+    display: flex;
+}
+.slider .card{
+    background: bisque;
+    flex: 1;
+    margin: 0 10px;
+}
+.slider .card .img{
+       height: 200px;
+       width: 100%;
+}
+.slider .card .img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.slider .card .content{
+    padding: 10px 20px;
+}
+
+.card .content .title{
+    font-size: 25px;
+    font-weight: 600;
+}
+.card .content .sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #39613e;
+    line-height: 20px;
+}
+.card .content p{
+    text-align: justify;
+    margin: 10px 0;
+}
+.card .content .btn{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+}
+.card .content .btn button{
+    background:#3e3319;
+    color: beige;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.card .content .btn button:hover{
+    transform: scale(0.9);
 }

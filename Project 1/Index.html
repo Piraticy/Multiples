@@ -7,6 +7,9 @@
     <style> @import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Roboto+Mono&display=swap'); </style>
     <link rel="stylesheet" href="style.css">
     <title>Farm House</title>
+    <script src="https://code.jquery.com/jquery-3.6.2.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 </head>
 <body>
     <header>
@@ -43,10 +46,75 @@
             </ul>
         </div>
     </header>
-    <div class="container">
-    </div>
+          <div class="slider owl-carousel">
+            <div class="card">
+                <div class="img">
+                    <img src="./Img/Corn/Corn_2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Corn Plant</div>
+                    <div class="suble-title">Corn Plant</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur 
+                        adipisicing elit. Perferendis est deleniti facere ad ab,</p>
+                      <div class="btn">
+                        <button>Read More</button>
+                      </div>  
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./Img/Cassava/Cassavas.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Corn Plant</div>
+                    <div class="suble-title">Corn Plant</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur 
+                        adipisicing elit. Perferendis est deleniti facere ad ab,</p>
+                      <div class="btn">
+                        <button>Read More</button>
+                      </div>  
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./Img/Rice/Rice_farms.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Rice</div>
+                    <div class="suble-title">Rice Farm</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur 
+                        adipisicing elit. Perferendis est deleniti facere ad ab,</p>
+                      <div class="btn">
+                        <button>Read More</button>
+                      </div>  
+                </div>
+            </div>
+            <div class="card">
+                <div class="img">
+                    <img src="./Img/Potatoes/Potatoes.jpg" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">Potatoes</div>
+                    <div class="suble-title">potatoes</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur 
+                        adipisicing elit. Perferendis est deleniti facere ad ab,</p>
+                      <div class="btn">
+                        <button>Read More</button>
+                      </div>  
+                </div>
+
+            </div>
+          </div>
     <div class="footer">
         <p>© 2022 FarmHouse, LTD. All rights reserved.</p>
     </div>
+    <script>
+        $(".slider").owlCarousel({
+            loop:true,
+            autoplay:true,
+            autoplayTimeout: 2000, 
+            autoplayHoverPause:true,
+        })
+    </script>
 </body>
 </html>
