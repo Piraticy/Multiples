@@ -5,16 +5,17 @@
     text-transform: capitalize;
 }
 body{
-    display: grid;
+    display: flex;
     place-content: center;
     text-align: center;
     background-image: url(./Img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    height: 80vh;
     background-position: center;
 }
-header{position: relative;
+header{
+    position:fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -80,15 +81,24 @@ header .navbar ul li:hover > ul{
 }
 
 .footer{
-    margin-top: 80vh;
+    margin-top: 90vh;
+    margin-left: 60px;
 }
 .footer p{
+    margin-right: 30px;
     color:beige;
     text-align: center;
 }
+.card{
+    border-top-left-radius: 8px;
+
+}
 .slider{
+    top: 20vh;
+    left: 10vw;
     max-width: 1150px;
     display: flex;
+    cursor: pointer;
 }
 .slider .card{
     background: bisque;
